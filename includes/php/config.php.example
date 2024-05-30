@@ -1,0 +1,8 @@
+<?php
+return [
+    'dbhost' => 'DBHOST',
+    'dbname' => 'DBNAME',
+    'dbusername' => 'DBUSERNAME',
+    'dbpassword' => 'DBPASSWORD',
+    'cookiekey' => 'COOKIEKEY',
+];

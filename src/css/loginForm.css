@@ -1,0 +1,56 @@
+.card {
+    background-color: #1e1e1e;
+    color: #fff;
+    width: 480px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card-header {
+    background-color: #343a40;
+    border-bottom: 1px solid #444;
+}
+
+.form-control {
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.form-control::placeholder {
+    color: #ffffff6a;
+}
+
+.form-control:focus {
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.input-group-text {
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.input-group-text i {
+    color: #6c757d;
+}
+
+.form-control:focus + .input-group-text i {
+    color: #007bff;
+}
+
+#login-result {
+    margin-top: 12px;
+}
