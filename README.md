@@ -25,8 +25,11 @@ post_max_size = 0
 max_execution_time = 0
 ```
 ### Then, you need to configure few things in configuration file
-#### In ```includes/php/config.php.example```
+#### DB setup
+  - Create a database called ```file```.
+  - Import ```SQL_STRUCTURE.sql``` into your newly created database.
+#### Configuration in ```includes/php/config.php.example```
 > [!IMPORTANT]
 > You must remove ```.example``` endcap!
-  - ```dbhost```, ```dbname```, ```dbusername```, ```dbpassword```, -> Your DB credentials.
+  - ```dbhost```, ```dbname```, ```dbusername```, ```dbpassword``` -> Your DB credentials.
   - ```cookiekey``` -> A random strong secret key for cookie encryption.
