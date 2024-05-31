@@ -24,10 +24,10 @@ upload_max_filesize = 0
 post_max_size = 0
 max_execution_time = 0
 ```
-### Then, you need to configure few things in configuration file
-#### DB setup
+### Creating database and table
   - Create a database called ```file```.
   - Import ```SQL_STRUCTURE.sql``` into your newly created database.
+### Then, you need to configure few things in configuration file
 #### Configuration in ```includes/php/config.php.example```
 > [!IMPORTANT]
 > You must remove ```.example``` endcap!
